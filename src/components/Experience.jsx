@@ -1,9 +1,16 @@
 import React from 'react'
+import { PiOfficeChairBold } from "react-icons/pi";
 
 const Experience = () => {
     return (
       <div className="lg:w-100 h-screen py-2 ">
-        <h2 className="text-5xl text-center drblue">Experience</h2>
+        <h2 className="text-5xl text-center drblue flex justify-center items-center font-bold">
+          <span>
+            {" "}
+            <PiOfficeChairBold />
+          </span>
+          Experienc <span style={{ color: "rgb(115, 3, 167)" }}>e</span>
+        </h2>
         <div className=""></div>
       </div>
     );
