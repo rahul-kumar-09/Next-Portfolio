@@ -69,6 +69,7 @@ const Home = ({home}) => {
           height={100}
           className="lg:w-80 w-48 m-auto lg:m-0"
           alt='Profile'
+          priority
         />
       </div>
     </div>

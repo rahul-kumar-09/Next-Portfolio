@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (min-width: 1200px) {
+  .hid-nav {
+    display: block !important;
+  }
+}

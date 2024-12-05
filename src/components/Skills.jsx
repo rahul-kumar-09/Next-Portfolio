@@ -4,7 +4,7 @@ import SkillCard from "./SkillCard";
 
 const Skills = ({skill}) => {
     return (
-      <div className="lg:w-100 h-screen py-2 " ref={skill}>
+      <div className="lg:w-100 min-h-screen py-2 " ref={skill}>
         <h2 className="text-5xl text-center drblue flex justify-center font-bold items-center">
           <span className="mr-3">
             <FaCode />
