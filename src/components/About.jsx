@@ -2,9 +2,9 @@ import React from "react";
 import { IoPersonOutline } from "react-icons/io5";
 import Image from "next/image";
 
-const About = () => {
+const About = ({about}) => {
   return (
-    <div className="lg:w-100 h-screen bg-slate-200 py-2 ">
+    <div className="lg:w-100 h-screen bg-slate-200 py-2 " ref={about}>
       <h2 className="text-5xl text-center drblue justify-center flex items-center font-bold">
         <span className="mr-2">
           <IoPersonOutline size={43} />

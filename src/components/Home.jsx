@@ -7,9 +7,9 @@ import { FaTwitter } from "react-icons/fa";
 import { HiMiniArrowDownCircle } from "react-icons/hi2";
 import Image from "next/image"
 
-const Home = () => {
+const Home = ({home}) => {
   return (
-    <div className="lg:flex items-center justify-between min-h-screen lg:px-28 px-5 py-10">
+    <div className="lg:flex items-center justify-between min-h-screen lg:px-28 px-5 py-10" ref={home}>
       <div>
         <p
           className="lg:text-5xl text-[#002057] my-5"

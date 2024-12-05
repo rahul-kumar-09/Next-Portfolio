@@ -1,9 +1,9 @@
 import React from 'react'
 import { FaRegMessage } from "react-icons/fa6";
 
-const Contact = () => {
+const Contact = ({contact}) => {
     return (
-      <div className="lg:w-100 h-screen bg-slate-200 py-2 ">
+      <div className="lg:w-100 h-screen bg-slate-200 py-2 " ref={contact}>
         <h2 className="text-5xl text-center drblue font-bold flex justify-center items-center">
           <span className='mr-1'>
             <FaRegMessage />
