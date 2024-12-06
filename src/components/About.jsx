@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = ({about}) => {
   return (
-    <div className="lg:w-100 h-screen bg-slate-200 py-2 " ref={about}>
+    <div className="lg:w-100 min-h-screen bg-slate-200 py-2 " ref={about}>
       <h2 className="text-5xl text-center drblue justify-center flex items-center font-bold">
         <span className="mr-2">
           <IoPersonOutline size={43} />
