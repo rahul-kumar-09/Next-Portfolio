@@ -6,6 +6,7 @@ import Skills from "./Skills";
 import Work from "./Work";
 import Experience from "./Experience";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 
 
@@ -29,6 +30,7 @@ const Hero = () => {
       <Work work={work} />
       <Experience experience={experience} />
       <Contact contact={contact} />
+      <Footer />
     </div>
   );
 };
