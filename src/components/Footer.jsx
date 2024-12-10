@@ -14,7 +14,6 @@ const Footer = () => {
         </div>
         <div>
           <h2 className="text-xl font-bold mb-2">quick links</h2>
-          <p>
             <ul>
               <li>Home</li>
               <li>About</li>
@@ -22,7 +21,6 @@ const Footer = () => {
               <li>Work</li>
               <li>Experience</li>
             </ul>
-          </p>
         </div>
         <div>
           <h2 className="text-xl font-bold mb-2">Contact Info</h2>
